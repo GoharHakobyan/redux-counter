@@ -19,10 +19,10 @@ function App() {
       <h4>Increment and Decrement App</h4>
       <div>
         <h6>the counter is {counter}</h6>
-        <Button variant="contained" color="primary" onClick={handleIncrement}>
+        <Button variant="contained" color="primary" onClick={handleIncrement} style={{ marginRight: "20px" }}>
           increment
         </Button>
-        <Button variant="contained" style={{ margin: "20px" }} color="primary" onClick={handledecrement}>
+        <Button variant="contained" color="primary" onClick={handledecrement}>
           decrement
         </Button>
       </div>

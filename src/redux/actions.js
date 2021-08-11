@@ -13,7 +13,7 @@ const initialState = {
   count: 0,
 };
 
-export default (state = initialState, action) => {
+export const createReducer = (state = initialState, action) => {
   switch (action.type) {
     case INCREMENT_ACTION:
       return { ...state, count: state.count + 1 };
